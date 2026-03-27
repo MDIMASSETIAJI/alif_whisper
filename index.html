@@ -320,7 +320,7 @@
         const formData = new FormData();
         formData.append('file', blob, filename);
 
-    const response = await fetch('https://mdimassetiaji-api-whisper.hf.space/v1/audio/transcriptions', {
+    const response = await fetch('https://mdimassetiaji-whisper-alif.hf.space/v1/audio/transcriptions', {
       method: 'POST',
       body: formData
     });
